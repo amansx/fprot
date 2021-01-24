@@ -2816,6 +2816,7 @@
 
 			.spotlight .inner {
 				padding: 2rem;
+				text-align: justify;
 			}
 
 		}
@@ -2950,7 +2951,8 @@
 				body:after {
 					background-attachment: scroll;
 					background-position: top;
-					background-size: 100%;
+					/*background-size: 100%;*/
+					background-size: 1200px;
 				}
 
 			}
