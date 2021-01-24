@@ -2692,7 +2692,8 @@
 
 		.spotlight.alt {
 			background: black;
-			color: rgba(255, 255, 255, 0.25);
+			/*color: rgba(255, 255, 255, 0.25);*/
+			color: #999;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -2719,8 +2720,11 @@
 				flex-grow: 0;
 			}
 
-			.spotlight.alt h3, .spotlight.alt h4 {
+			.spotlight.alt h3 {
 				color: #FFF;
+			}
+			.spotlight.alt h4 {
+				color: #aaa;
 			}
 
 			.spotlight.alt .image {
@@ -2906,7 +2910,7 @@
 
 	body {
 		background-color: black;
-		padding-top: 8rem;
+		padding-top: 2rem;
 	}
 
 		body.is-loading:after {
@@ -2968,7 +2972,7 @@
 				font-weight: 700;
 				color: #FFF;
 				text-decoration: none;
-				line-height: 1rem;
+				/*line-height: 1rem;*/
 				text-shadow: 2px 2px #555;
 			}
 
@@ -2978,14 +2982,14 @@
 				font-size: 1.2rem;
 				display: block;
 				font-weight: 700;
-				padding-top: 20px;
+				/*padding-top: 20px;*/
 				color: #eee;
 			}
 
 	@media screen and (max-width: 1280px) {
 
 		body {
-			padding-top: 6rem;
+			padding-top: 2rem;
 			background-attachment: scroll;
 			background-size: auto;
 			background-position: top;
