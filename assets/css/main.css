@@ -280,6 +280,7 @@ body {
 	}
 
 	.newssplitc {
+		height: 500px;
 		width: 100%;
 	}
 	.newssplitc:first-child{
