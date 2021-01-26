@@ -1536,7 +1536,7 @@ body {
 	background: #fff;
 }
 
-body.is-loading *,
+/*body.is-loading *,
 body.is-loading *:before,
 body.is-loading *:after {
 	-moz-animation: none !important;
@@ -1548,7 +1548,7 @@ body.is-loading *:after {
 	-ms-transition: none !important;
 	transition: none !important;
 }
-
+*/
 
 /* Type */
 
@@ -2888,11 +2888,11 @@ body {
 	padding-top: 2rem;
 }
 
-body.is-loading:after {
+/*body.is-loading:after {
 	visibility: hidden;
 	opacity: 0;
 }
-
+*/
 body:after {
 	-moz-pointer-events: none;
 	-webkit-pointer-events: none;
@@ -2978,19 +2978,16 @@ body:after {
 	}
 }
 
-
-/* Main */
-
-#main>.inner {
+#main > .inner {
 	margin: 0 auto;
 	width: 80rem;
 	max-width: 90%;
 	margin-bottom: 2rem;
-/*	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-*/	border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
 	overflow: hidden;
+	border-radius: 15px;
 }
 
 @media screen and (max-width: 980px) {
