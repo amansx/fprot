@@ -39,6 +39,7 @@
 
 		// Gallery.
 			$('.gallery').poptrox();
+			$('.imagezoom').poptrox();
 
 	});
 

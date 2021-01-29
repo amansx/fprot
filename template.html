@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>Twitter Backup of {{handle}}</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="shortcut icon" href="favicon.ico">
+      <meta name="description" content="The 2020–2021 Indian farmers' protest is an ongoing and the largest protest in human history, against the three farm acts which were passed by the Parliament of India in September 2020.">
+      <meta name="revisit-after" content="2 days"/>
+      <meta name="keywords" content="2020–2021 Indian farmers' protest, three black laws, farm acts"/>
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="https://kisanandolan.org">
+      <meta name="twitter:title" content="2020–2021 Indian farmers' protest against the three black laws">
+      <meta name="twitter:description" content="The 2020–2021 Indian farmers' protest is an ongoing and the largest protest in human history, against the three farm acts which were passed by the Parliament of India in September 2020.">
+      <meta name="twitter:image" content="https://kisanandolan.org/images/thumb1.jpg">
+      <meta property="og:title" content="2020–2021 Indian Farmers' Protest" />
+      <meta property="og:url" content="https://kisanandolan.org" />
+      <meta property="og:image" content="https://kisanandolan.org/images/thumb1.jpg" />
+      <meta property="og:image" content="https://kisanandolan.org/images/thumb1.jpg" />
+      <meta property="og:image" content="https://kisanandolan.org/images/thumb1.jpg" />
+      <meta property="og:description" content="The 2020–2021 Indian farmers' protest is an ongoing and the largest protest in human history, against the three farm acts which were passed by the Parliament of India in September 2020." />
+      <link rel="stylesheet" href="../../assets/css/main.css" />
+   </head>
+   <body>
+      <!-- Header -->
+      <header id="header">
+         <div class="logo">
+            <a href="https://kisanandolan.org">Farmers' Protest</a>
+            <span>The Largest Protest in Human History</span>
+            <span>2020–2021 Indian Farmers' Protest</span>
+         </div>
+      </header>
+      <!-- Main -->
+      <section id="main">
+         <div class="inner">
+            <!-- One -->
+            <section id="one" class="wrapper style1">
+               <img class="image fit flush" src="../../images/pic02.jpg" alt="" />
+               <header class="special">
+                  <h2>Twitter Backup of {{handle}}</h2>
+                  <p>2020–2021 Indian farmers' protest</p>
+               </header>
+            </section> 
+
+            <section id="three" class="wrapper">
+{{#each tweets}}
+<div class="spotlight {{#even @index}}alt{{/even}}">
+   <div class="image flush imagezoom" style="text-align: center;">
+{{#each this}}
+{{#each this.media}}
+      <a style="display: inline-block;" href="{{@key}}.jpeg">
+         <img style="max-height: 300px; width: auto; max-width: 100%;" src="{{@key}}.jpeg" alt="" />
+      </a>
+{{/each}}
+{{/each}}
+   </div>
+   <div  class="inner">
+{{#each this}}
+      <h3>{{date this.DateTime}}</h3>
+      <p>
+         {{{twitter this.Text}}}
+      </p>
+{{/each}}
+  </div>
+</div>
+{{/each}}
+
+            </section>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer id="footer">
+         <div class="container">
+            <ul class="icons">
+               <li><a target="_blank" href="https://twitter.com/search?q=%23FarmersProtests" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+               <!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+               <li><a target="_blank" href="https://www.instagram.com/sikhexpo/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+               <!-- <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li> -->
+            </ul>
+         </div>
+         <div class="copyright">
+            Important Links <br />
+            <a target="_blank" href="https://www.trolleytimes.online/edition/english/2">Trolley Times</a><br />
+            <a target="_blank" href="https://twitter.com/amaanbali">Amaan Bali's Twitter</a><br />
+            <a target="_blank" href="https://twitter.com/PunYaab">Sandeep Singh's Twitter</a><br />
+            <a href="https://kisanandolan.org/tweets/amaanbali">Amaan Bali's Twitter Backup</a><br />
+            <a href="https://kisanandolan.org/tweets/punyaab">Sandeep Singh's Twitter Backup</a>
+         </div>
+      </footer>
+      <!-- Scripts -->
+      <script src="../../assets/js/jquery.min.js"></script>
+      <script src="../../assets/js/jquery.poptrox.min.js"></script>
+      <script src="../../assets/js/skel.min.js"></script>
+      <script src="../../assets/js/util.js"></script>
+      <script src="../../assets/js/main.js"></script>
+   </body>
+</html>
